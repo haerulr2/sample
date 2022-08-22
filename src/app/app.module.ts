@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { LayoutsModule } from './layouts/layouts.module';
 import { MainPageModule } from './pages/main-page/main-page.module';
 import { MorePageModule } from './pages/more-page/more-page.module';
+import { ScullyLibModule } from '@scullyio/ng-lib';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MorePageModule } from './pages/more-page/more-page.module';
     AppRoutingModule,
     LayoutsModule,
     MainPageModule,
-    MorePageModule
+    MorePageModule,
+    ScullyLibModule
   ],
   providers: [],
   bootstrap: [AppComponent]
